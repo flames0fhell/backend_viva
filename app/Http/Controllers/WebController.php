@@ -3,6 +3,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Response;
 use App\Http\Models\GeneralModel as GeneralModel;
 
+use Illuminate\Support\Facades\Redis as Redis;
+
 use Illuminate\Http\Request;
 class WebController extends Controller
 {
